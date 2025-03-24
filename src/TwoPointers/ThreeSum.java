@@ -18,6 +18,8 @@ public class ThreeSum {
 
     private static void validTriplets(int[] arr) {
         System.out.println("For input : " + Arrays.toString(arr));
+        Arrays.sort(arr);
+        System.out.println("sorted : " + Arrays.toString(arr));
         int i = 0;
         int j = i + 1;
         int k = j + 1;
